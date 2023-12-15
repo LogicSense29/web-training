@@ -26,12 +26,12 @@ body{
 }
 
 .column-one .left-content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 70%;
 }
 
 .column-one .left-content img{
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .form-container{
@@ -47,7 +47,7 @@ body{
         flex-direction: column;
         gap: 20px;
         height: 100%;
-        border: 5px solid red;
+        /* border: 5px solid red; */
 }
 
 .first, .second, .third{
@@ -70,7 +70,7 @@ body{
 
 .fourth{
     justify-content: space-between;
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
     gap: 10px;
     height: 20rem;
 }
@@ -153,8 +153,7 @@ label{
     }
     .column-one{
         width: 100%;
-        /* display: flex;
-        justify-content: center; */
+        align-items: center;
     }
     .column-two{
         height: 100%;
@@ -164,4 +163,7 @@ label{
         flex-direction: column;
         gap: 15px;
     }
+        .form-container {
+            height: 100%;
+        }
 }
